@@ -1,0 +1,52 @@
+body {
+    background: url('15.jpg');
+    background-size: cover; /* Para que la imagen cubra todo el fondo */
+    background-repeat: no-repeat; /* Para evitar que la imagen se repita */
+    font-family: Courier New;
+}
+
+button {
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: #ff0073d2;
+    border: 1px;
+    font-family: Courier New;
+    position: relative;
+    top: -20px;
+    border-radius: 20px;
+    position: relative; /* o absolute o fixed */
+    top: 100px;    /* Abajo */
+    left: 150px;   /* Derecha */
+    font-size: 1.5em;
+    color: #000000;
+    text-shadow: 1px 0.5px #292929;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    gap: 0px;
+    margin: 0; /* Elimina el margen negativo */
+    flex-direction: column;
+    text-align: center;
+    position: relative;
+    line-height: 1.2; /* Ajusta el line-height */
+    font-size: 1.5em;
+}
+
+h1 {
+    text-align: center;
+    color: #ff00b2;
+    text-shadow: 1px 1px #ff00c7;
+}
+
+hr {
+    width: 60%;
+}
+
+p {
+    color: #ff2af1;
+    text-shadow: 1px 0.5px #dd25d1;
+}
